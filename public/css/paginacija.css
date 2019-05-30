@@ -1,0 +1,62 @@
+.wrapper-paging {
+    display: none;
+    padding-bottom: 60px;
+}
+
+.wrapper-paging ul,
+.wrapper-paging li {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper-paging ul {
+    float: left;
+    list-style-type: none;
+    text-align: left;
+}
+
+.wrapper-paging a {
+    border: 1px solid black;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    margin-right: 3px;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+
+.wrapper-paging .paging-this {
+    cursor: default;
+    padding: 3px 0;
+}
+
+.wrapper-paging a:hover {
+    background-color: #5bc0de;
+    color: black;
+}
+
+.wrapper-paging .paging-back,
+.wrapper-paging .paging-next {
+    border-color: black;
+}
+
+.wrapper-paging .paging-this:hover {
+    background-color: #5bc0de;
+    color: black;
+}
+
+.wrapper-paging .paging-this b {
+    font-weight: normal;
+}
+
+.wrapper-paging .paging-disabled,
+.wrapper-paging .paging-disabled:hover {
+    background-color: #5bc0de;
+    border-color: black;
+    color: black;
+    cursor: default;
+}
